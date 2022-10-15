@@ -12,6 +12,11 @@ echo "##::. ##: ##:::: ##: ##:::: ##: ##:::::::::::::::::. ######::. ######:: ##
 echo "..::::..::..:::::..::..:::::..::..:::::::::::::::::::......::::......:::..:::::..::..::::..::"
 echo
 echo
+blue="\e[34m"
+printf "${blue}"
+
+echo "Developed by D1vy@...."
+
 echo "1- Port scanning"
 echo "2- Port Versions"
 echo "3- TCP Scanning"
