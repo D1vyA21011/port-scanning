@@ -12,11 +12,14 @@ echo "##::. ##: ##:::: ##: ##:::: ##: ##:::::::::::::::::. ######::. ######:: ##
 echo "..::::..::..:::::..::..:::::..::..:::::::::::::::::::......::::......:::..:::::..::..::::..::"
 echo
 echo
+endcolour="\e[0m"
 blue="\e[34m"
+
 printf "${blue}"
-
 echo "Developed by D1vy@...."
-
+echo
+echo
+printf "${endcolour}"
 echo "1- Port scanning"
 echo "2- Port Versions"
 echo "3- TCP Scanning"
